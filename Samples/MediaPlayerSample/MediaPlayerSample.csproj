@@ -25,11 +25,8 @@
 
   <ItemGroup>
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.497661" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\MediaPlayer\ZPFMediaPlayer.csproj" />
+    <PackageReference Include="ZPFMediaPlayer" Version="0.3.0" />
   </ItemGroup>
 </Project>

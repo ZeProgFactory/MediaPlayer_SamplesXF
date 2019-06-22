@@ -95,10 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MediaPlayer\ZPFMediaPlayer.csproj">
-      <Project>{7fe02644-787d-4121-b142-2e463309904b}</Project>
-      <Name>ZPFMediaPlayer</Name>
-    </ProjectReference>
+    <PackageReference Include="ZPFMediaPlayer">
+      <Version>0.3.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

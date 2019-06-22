@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3B5D9760-7F39-40DF-A213-ED0410A989BE}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerSample.iOS", "Samples\MediaPlayerSample.iOS\MediaPlayerSample.iOS.csproj", "{628363DA-350B-4A59-AEBA-84CBFCF4F32F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaPlayerSample", "Samples\MediaPlayerSample\MediaPlayerSample.csproj", "{643165A1-CB14-4C50-8C69-A896E634216B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZPFMediaPlayer", "MediaPlayer\ZPFMediaPlayer.csproj", "{7FE02644-787D-4121-B142-2E463309904B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerSample.MacOS", "Samples\MediaPlayerSample.MacOS\MediaPlayerSample.MacOS.csproj", "{23A8CD26-3B50-4CDC-96A6-BA972D956B6F}"
 EndProject
@@ -187,30 +185,6 @@ Global
 		{643165A1-CB14-4C50-8C69-A896E634216B}.Release|x86.ActiveCfg = Release|Any CPU
 		{643165A1-CB14-4C50-8C69-A896E634216B}.Release|x86.Build.0 = Release|Any CPU
 		{643165A1-CB14-4C50-8C69-A896E634216B}.Release|x86.Deploy.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|ARM.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|x64.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Debug|x86.Build.0 = Debug|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|ARM.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|ARM.Build.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|iPhone.Build.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|x64.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|x64.Build.0 = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|x86.ActiveCfg = Release|Any CPU
-		{7FE02644-787D-4121-B142-2E463309904B}.Release|x86.Build.0 = Release|Any CPU
 		{23A8CD26-3B50-4CDC-96A6-BA972D956B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23A8CD26-3B50-4CDC-96A6-BA972D956B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A8CD26-3B50-4CDC-96A6-BA972D956B6F}.Debug|ARM.ActiveCfg = Debug|Any CPU

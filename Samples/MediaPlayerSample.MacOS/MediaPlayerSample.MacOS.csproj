@@ -113,14 +113,13 @@
       <Project>{643165A1-CB14-4C50-8C69-A896E634216B}</Project>
       <Name>MediaPlayerSample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\MediaPlayer\ZPFMediaPlayer.csproj">
-      <Project>{7FE02644-787D-4121-B142-2E463309904B}</Project>
-      <Name>ZPFMediaPlayer</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.0.0.425677</Version>
+      <Version>4.0.0.497661</Version>
+    </PackageReference>
+    <PackageReference Include="ZPFMediaPlayer">
+      <Version>0.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
