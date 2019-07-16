@@ -116,15 +116,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.0.0.497661</Version>
+      <Version>4.1.0.555618</Version>
     </PackageReference>
     <PackageReference Include="ZPFMediaPlayer" Version="0.3.0" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
   </ItemGroup>
-
-   <ItemGroup>
-      <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')"/>
-   </ItemGroup>
-   
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

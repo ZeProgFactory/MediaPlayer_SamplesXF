@@ -143,16 +143,14 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.497661" />
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.8" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="ZPFMediaPlayer" Version="0.3.0" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
   </ItemGroup>
-
-   <ItemGroup>
-      <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')"/>
-   </ItemGroup>
-   
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MediaPlayerSample\MediaPlayerSample.csproj">
       <Project>{BB7C75E3-995A-4A59-88BF-9C3BE5A3A8C3}</Project>
