@@ -48,10 +48,10 @@ namespace ZPF.XF
                IsAntialias = true,
             };
 
-            paint.Typeface = SKTypeface.FromStream(GetStreamFromResources(typeof(ZPFFonts.MPF), "MediaPlayerSample.Fonts.MediaPlayerFont.ttf"));
+            paint.Typeface = SKTypeface.FromStream(GetStreamFromResources(typeof(ZPF.Fonts.MPF), "MediaPlayerSample.Fonts.MediaPlayerFont.ttf"));
             paint.TextSize = info.Width;
 
-            canvas.DrawText(ZPFFonts.MPF.GetContent(Icon), 0, info.Height, paint);
+            canvas.DrawText(ZPF.Fonts.MPF.GetContent(Icon), 0, info.Height, paint);
          });
       }
 

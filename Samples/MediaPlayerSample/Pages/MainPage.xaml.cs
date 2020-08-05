@@ -47,22 +47,22 @@ namespace MediaPlayerSample
             case Device.Android:
             case Device.UWP:  
                btnPlayPrevious.Text = "";
-               btnPlayPrevious.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Backward, 64);
+               btnPlayPrevious.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Backward, 64);
 
                btnStepBackward.Text = "";
-               btnStepBackward.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Previous, 64);
+               btnStepBackward.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Previous, 64);
 
                btnPlayPause.Text = "";
-               btnPlayPause.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Play_01, 64);
+               btnPlayPause.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Play_01, 64);
 
                btnStepForward.Text = "";
-               btnStepForward.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Next, 64);
+               btnStepForward.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Next, 64);
 
                btnPlayNext.Text = "";
-               btnPlayNext.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Fast_Forward, 64);
+               btnPlayNext.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Fast_Forward, 64);
 
                btnStop.Text = "";
-               btnStop.ImageSource = SkiaHelper.SkiaFontIcon(ZPFFonts.MPF.Media_Stop, 64);
+               btnStop.ImageSource = SkiaHelper.SkiaFontIcon(ZPF.Fonts.MPF.Media_Stop, 64);
                break;
 
             case Device.WPF:
