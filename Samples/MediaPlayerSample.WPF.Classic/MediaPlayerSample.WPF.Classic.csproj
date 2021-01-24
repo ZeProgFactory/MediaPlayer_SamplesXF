@@ -95,12 +95,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ZPFMediaPlayer" Version="0.3.0" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
+    <PackageReference Include="ZPFMediaPlayer" Version="0.3.2" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
   </ItemGroup>
-
-   <ItemGroup>
-      <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')"/>
-   </ItemGroup>
-   
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MediaPlayer\ZPFMediaPlayer.csproj" Condition="Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZPFFonts
+namespace ZPF.Fonts
 {
 #if XF
    public static partial class MPF
