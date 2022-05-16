@@ -116,7 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>5.0.0.1905</Version>
+      <Version>5.0.0.2401</Version>
     </PackageReference>
     <PackageReference Include="ZPFMediaPlayer" Version="0.3.2" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
   </ItemGroup>

@@ -109,19 +109,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="SkiaSharp">
-      <Version>2.80.2</Version>
+      <Version>2.80.3</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.Views">
-      <Version>2.80.2</Version>
+      <Version>2.80.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Essentials">
-      <Version>1.6.0</Version>
+      <Version>1.7.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>5.0.0.1905</Version>
+      <Version>5.0.0.2401</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms.Platform.WPF">
-      <Version>5.0.0.1905</Version>
+      <Version>5.0.0.2401</Version>
     </PackageReference>
     <PackageReference Include="ZPFMediaPlayer" Version="0.3.2" Condition="!Exists('..\..\..\MediaPlayer\ZPFMediaPlayer.csproj')" />
   </ItemGroup>

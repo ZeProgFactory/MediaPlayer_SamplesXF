@@ -89,7 +89,8 @@ namespace MediaPlayerSample
          Debug.WriteLine("Current_MediaItemChanged");
       }
 
-      private void Current_PositionChanged(object sender, PositionChangedEventArgs e)
+      private void Current_PositionChanged(object sender, ZPF.Media.PositionChangedEventArgs e)
+      //private void Current_PositionChanged(object sender, Xamarin.Forms.PositionChangedEventArgs e)
       {
          Device.BeginInvokeOnMainThread(() =>
          {
